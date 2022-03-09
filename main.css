@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    cursor: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    padding-bottom: 10%;
+}
+.num:hover{
+    cursor:crosshair;
+    background-color: darkviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color:black;
+}
+.contenedor{
+    width:700px;
+    height:500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    display: grid;
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.contenedor div{
+    border:burlywood 5px solid;
+    background-color: brown;
+    text-align: center;
+    padding: 25%;
+}
+div div.g:hover{
+    background-color: coral;
+}
+ p{
+    height: auto;
+    width: 500px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: red;
+    background-color: black;
+    
+}
